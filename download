@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data — dataset BraTS no se sube (484 casos, varios GB)
+*.nii
+*.nii.gz
+archivos nexus medico/
+Task01_BrainTumour/
+data/
+
+# Resultados locales
+runs_medico/
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PyTorch checkpoints
+*.pt
+*.pth
+*.ckpt
